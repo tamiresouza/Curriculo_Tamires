@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --white: #FFFFFF;
+    --grey1: #9ca3af;
+    --grey2: #1B1B20;
+    --black: #0e0f0f;
+    --purple: #986dff;
+
+body{
+    background-color: var(--black);
+    height: 100vh;
+    font-family: "Roboto";
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 1rem 5rem; 
+    background-color: var(--grey2);
+    min-height: 70px; 
+}
+
+nav{
+    display:flex;
+    gap: 2rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-links{
+    text-decoration: none;
+    color:var(--white);
+}
+
+.nav-links:hover{
+    color: var(--white);
+    transition: .4s;
+    text-decoration: underline;
+}
+
+main{
+    display: flex;
+    flex-direction:  column;
+    gap: 2rem;
+}
+
+section{
+    padding: 1rem;
+}
+
+.first{
+    display:flex;
+    justify-content: space-evenly;
+    gap:5rem;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 500px;
+}
+
+.first > div{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    min-width: 200px;
+}
+
+h1{
+    font-size: 4rem;
+    color:var(--white);
+    letter-spacing: 2px;
+}
+
+strong{
+    color: var(--purple)
+}
+
+.first p{
+    color: var(--white)
+}
+
+.img-profile {
+    width: 100%; 
+    max-width: 350px; 
+    height: auto; 
+    border-radius: 50%;
+}
+
+h2{
+    padding: 1rem;
+    color: var(--purple)
+}
+
+.second {
+    display: flex;
+    background-color: var(--grey2);
+}
+
+.second > div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.second p{
+    display: flex;
+    color: var(--white);
+    line-height: 1.5 ;
+    align-items: center;
+    min-height: 200px;
+    text-align: justify;
+    margin-right: 100px;
+}
+
+.img-sobremim{
+    width: 100%; 
+    height: auto; 
+    margin-top: 30px;
+}
+
+.third {
+    display: flex;
+    gap:2rem;
+}
+
+.third p {
+    color: var(--white);
+    line-height: 1.5 ;
+    min-height: 200px;
+    text-align: justify;
+    margin-right: 100px;
+}
+
+.third nav {
+    width: 150px;
+    background-color: var(--black);
+    margin-left: 40px;
+}
+
+.descricao-curso {
+    display: none; 
+    flex: 1;
+    padding-left: 20px;
+    text-align: justify; 
+    margin-top: 1px; 
+}
+
+.third nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.third nav ul li {
+    padding: 10px 0;
+}
+
+.third nav ul li a {
+    text-decoration: none;
+    color: var(--grey1);
+}
+
+.third nav ul li a:hover {
+    color: var(--white);
+    transition: .4s;
+    text-decoration: underline;
+}
+
+footer{
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+}
+
+.fourth {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--grey2);
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+}
+
+.fourth h2 {
+    color: var(--purple);
+    text-align: center;
+}
+
+footer > div{
+    display: flex;
+    justify-content: center;
+    gap:2rem;
+    flex-wrap:
+}
+
+#projects-list{
+    display: flex;
+    gap:2rem;
+    flex-wrap: wrap;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#projects-list a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+#projects-list a:hover{
+        color: var(--white);
+        transition: .4s;
+        text-decoration: underline;
+}
